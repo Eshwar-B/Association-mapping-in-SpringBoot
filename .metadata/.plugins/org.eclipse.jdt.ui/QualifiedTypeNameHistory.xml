@@ -8,4 +8,5 @@
     <fullyQualifiedTypeName name="in.ashokit.entities.Book"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="in.ashokit.service.AuthorService"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.FetchType"/>
 </qualifiedTypeNameHistroy>

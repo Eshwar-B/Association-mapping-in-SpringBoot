@@ -14,9 +14,7 @@ public class Application {
 		
 		AuthorService bean = context.getBean(AuthorService.class);
 		
-//		bean.saveAuthorWithBook();
-		
-		bean.getAuthor(1);
+		bean.saveAuthorWithBook();
 	}
 
 }

@@ -45,6 +45,6 @@ public class AuthorService {
 	
 	public void getAuthor(Integer id)
 	{
-		authRepo.findById(id);
+		System.out.println(authRepo.findById(id));
 	}
 }

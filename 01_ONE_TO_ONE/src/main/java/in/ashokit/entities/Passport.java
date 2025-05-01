@@ -1,0 +1,71 @@
+package in.ashokit.entities;
+
+import java.time.LocalDate;
+
+import org.hibernate.annotations.CreationTimestamp;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToOne;
+
+@Entity
+public class Passport {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer passportId;
+
+	private String passportNum;
+
+	@CreationTimestamp
+	private LocalDate issueDate;
+	private LocalDate expiryDate;
+
+	@OneToOne
+	@JoinColumn(name = "person_id")
+	private Person person;
+
+	public void setPassportId(Integer passportId) {
+		this.passportId = passportId;
+	}
+
+	public void setPassportNum(String passportNum) {
+		this.passportNum = passportNum;
+	}
+
+	public void setIssueDate(LocalDate issueDate) {
+		this.issueDate = issueDate;
+	}
+
+	public void setExpiryDate(LocalDate expiryDate) {
+		this.expiryDate = expiryDate;
+	}
+
+	public void setPerson(Person person) {
+		this.person = person;
+	}
+
+	public Integer getPassportId() {
+		return passportId;
+	}
+
+	public String getPassportNum() {
+		return passportNum;
+	}
+
+	public LocalDate getIssueDate() {
+		return issueDate;
+	}
+
+	public LocalDate getExpiryDate() {
+		return expiryDate;
+	}
+
+	public Person getPerson() {
+		return person;
+	}
+
+}

@@ -1,0 +1,30 @@
+package in.ashokit.entities;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class Author {
+
+	@Id
+	private Integer authId;
+
+	private String authName;
+
+	public Integer getAuthId() {
+		return authId;
+	}
+
+	public String getAuthName() {
+		return authName;
+	}
+
+	public void setAuthId(Integer authId) {
+		this.authId = authId;
+	}
+
+	public void setAuthName(String authName) {
+		this.authName = authName;
+	}
+
+}

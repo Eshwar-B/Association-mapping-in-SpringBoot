@@ -1,0 +1,1330 @@
+!SESSION 2025-05-02 18:26:21.549 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 D:\VS Code\Microsoft VS Code\bin\code
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 D:\VS Code\Microsoft VS Code\bin\code -data D:\advanced java\SpringBoot Association Mapping\Circuit Breaker
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-02 18:26:27.193
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-05-02 18:26:27.519
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-02 18:26:28.978
+!MESSAGE Logback config file: D:\advanced java\SpringBoot Association Mapping\Circuit Breaker\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-05-02 18:26:29.686
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-02 18:26:29.687
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-05-02 18:26:30.360
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-02 18:26:30.360
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-05-02 18:26:37.597
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-05-02 18:26:39.795
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Eshwar Boini'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 18:52:03.193
+!MESSAGE Classpath changed for project: CIRCUIT_BREAKER
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-02 18:52:03.939
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter:4.2.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter:jar:sources:4.2.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter:jar:sources:4.2.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-05-02 18:52:03.941
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter:jar:sources:4.2.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-05-02 18:52:03.942
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter:jar:sources:4.2.1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 18:52:06.583
+!MESSAGE Classpath changed for project: CIRCUIT_BREAKER
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 18:52:06.584
+!MESSAGE Boot project ADDED: CIRCUIT_BREAKER
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 18:52:06.586
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 18:52:06.631
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-02 18:52:06.655
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/advanced java/SpringBoot Association Mapping/Circuit Breaker/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1746192126653
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 18:52:06.655
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-02 18:52:06.666
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 15856
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 18:52:09.303
+!MESSAGE Classpath changed for project: CIRCUIT_BREAKER
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 18:52:13.332
+!MESSAGE Classpath changed for project: CIRCUIT_BREAKER
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-02 18:52:13.518
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-02 18:52:13.520
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-02 18:52:13.523
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-02 18:52:13.525
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-02 18:52:13.538
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-02 18:52:13.546
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.jface 2 0 2025-05-02 18:52:13.877
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-05-02 18:52:13.877
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 0 2025-05-02 19:01:11.749
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Property must not be null: range
+	at org.eclipse.lsp4j.jsonrpc.util.Preconditions.checkNotNull(Preconditions.java:29)
+	at org.eclipse.lsp4j.Location.<init>(Location.java:34)
+	at org.eclipse.lsp4e.LanguageClientImpl.lambda$5(LanguageClientImpl.java:162)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4094)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3710)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:01:19.180
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:336)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:377)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:854)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1259)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1255)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1738)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4880)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4757)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5089)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3705)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:01:19.232
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:336)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:384)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1252)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:854)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1259)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1255)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1738)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4880)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4757)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5089)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3705)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:01:19.325
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:336)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:377)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:854)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1259)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1255)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1738)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4880)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4757)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5089)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3705)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:01:19.377
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:336)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:384)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1252)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:854)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1259)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1255)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1738)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4880)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4757)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5089)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3705)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:01:20.314
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:336)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:377)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:854)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1259)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1255)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1738)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4880)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4757)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5089)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3705)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:01:20.367
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:336)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:384)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1252)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:854)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1259)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1255)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1738)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4880)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4757)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5089)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3705)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:01:20.682
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:336)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:377)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:854)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1259)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1255)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1738)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4880)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4757)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5089)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3705)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:01:20.734
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:336)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:384)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1252)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:854)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1259)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1255)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1738)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4880)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4757)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5089)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3705)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:01:21.035
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:336)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:377)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:854)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1259)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1255)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1738)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4880)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4757)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5089)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3705)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:01:38.113
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.jface 2 0 2025-05-02 19:02:27.371
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-05-02 19:02:27.371
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:03:15.159
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:03:19.282
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.resolveItem(LSCompletionProposal.java:372)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:338)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:03:30.686
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:03:54.454
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:00.765
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:01.173
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:01.340
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:01.565
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:03.676
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:03.755
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:03.853
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:04.147
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:04.300
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:04.430
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:04.727
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:04.894
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:13.810
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:18.289
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:47.168
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:04:59.985
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.resolveItem(LSCompletionProposal.java:372)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:338)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:08.647
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:08.838
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:09.210
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:09.330
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:09.488
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:09.709
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:09.948
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:39.676
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:42.494
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:42.620
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:43.584
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:43.744
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:43.947
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:44.840
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:44.974
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:45.261
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:45.341
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:45.533
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:45.680
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:46.029
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:46.246
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:46.365
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:05:48.788
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:06:05.411
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:06:07.030
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:06:07.142
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:06:07.330
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:06:07.565
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:06:07.777
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:06:08.029
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:06:08.414
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:06:10.590
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:06:10.814
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:06:11.247
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:06:11.569
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:06:17.783
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:06:20.960
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:06:21.147
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:17.547
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:24.827
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:25.009
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:25.826
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:25.951
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:26.164
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:27.182
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:28.001
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:28.367
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:28.550
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:29.182
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:29.348
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:30.271
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:31.573
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:47.795
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:47.855
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:48.085
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:48.241
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:48.435
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:48.731
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:48.832
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:48.974
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:49.138
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:50.114
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:50.306
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:50.482
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:50.819
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:50.943
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:51.121
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:52.768
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:52.851
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:53.153
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:53.315
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:53.525
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:53.651
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:53.778
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:54.873
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:55.008
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:55.651
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:55.797
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:55.955
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:56.274
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:56.640
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:56.770
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:56.944
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:57.138
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:57.437
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:57.585
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:57.666
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:57.795
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:07:57.922
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:04.607
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:37.777
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:38.083
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:38.194
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:38.502
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:38.729
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:38.915
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:39.107
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:48.690
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:55.752
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:55.912
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:56.100
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:56.308
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:56.597
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:58.451
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:58.595
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:08:58.834
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:00.325
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:00.534
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:00.711
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:00.950
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:02.962
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:03.044
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:03.258
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:03.427
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:07.630
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:07.924
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:08.459
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:08.677
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:08.932
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:09.380
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:11.816
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:12.432
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:13.253
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:13.877
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:14.860
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:15.222
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:15.394
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:15.845
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:16.144
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:16.311
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:16.484
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:09:20.614
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:01.327
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:01.971
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.resolveItem(LSCompletionProposal.java:372)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:338)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:02.271
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.resolveItem(LSCompletionProposal.java:372)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:338)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:02.462
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.resolveItem(LSCompletionProposal.java:372)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:338)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:08.110
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.resolveItem(LSCompletionProposal.java:372)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:338)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:08.201
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:08.300
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:08.474
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:08.659
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:08.962
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:09.094
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:09.175
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:09.367
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:09.557
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:14.104
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:14.324
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:14.446
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:14.599
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:18.111
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:26.249
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:26.320
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:26.486
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:26.630
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:26.884
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:27.061
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:29.524
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:29.718
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:30.341
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:32.553
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 19:10:32.804
+!MESSAGE [Warning]	Ignoring CompletionItem without label: {"kind":12,"label":"","insertText":" ","insertTextFormat":2,"documentation":""}
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 19:16:36.478
+!MESSAGE Classpath changed for project: CIRCUIT_BREAKER
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 19:16:38.743
+!MESSAGE Classpath changed for project: CIRCUIT_BREAKER
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 19:23:09.417
+!MESSAGE Classpath changed for project: CIRCUIT_BREAKER
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 19:23:09.444
+!MESSAGE Classpath changed for project: CIRCUIT_BREAKER
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 19:23:10.426
+!MESSAGE Classpath changed for project: CIRCUIT_BREAKER
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 19:23:48.464
+!MESSAGE Classpath changed for project: CIRCUIT_BREAKER

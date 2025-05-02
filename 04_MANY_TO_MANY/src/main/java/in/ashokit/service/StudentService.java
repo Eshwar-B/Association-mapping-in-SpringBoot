@@ -37,6 +37,8 @@ public class StudentService {
         // Add the course to the student
         Set<Course> courses = new HashSet<>();
         courses.add(course);
+        
+        
         student.setCourses(courses);
 
         // Save the student and course
